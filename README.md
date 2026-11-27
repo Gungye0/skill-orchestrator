@@ -5,7 +5,7 @@
 - `~/.claude/skills/`와 프로젝트의 `.claude/skills/`에서 SKILL.md frontmatter를 읽어 스킬 목록 수집
 - 목표를 단계로 나누고 단계마다 스킬 하나를 매칭, 맞는 스킬이 없으면 "미매칭"으로 알림
 - 출력과 입력 형식이 다르면 변환 단계를 자동으로 넣고 계획에 표시
-- 마지막에 [independent-judge](https://github.com/<사용자>/independent-judge) 검증 단계를 기본으로 넣음(미설치 시 생략하고 알림)
+- 마지막에 [independent-judge](https://github.com/Gungye0/independent-judge) 검증 단계를 기본으로 넣음(미설치 시 생략하고 알림)
 - 실행 전에 계획을 보여주고 승인을 받음, 외부 전송과 파일 삭제는 실행 직전에 다시 확인
 
 ## 설치
@@ -19,7 +19,7 @@ mkdir -p ~/.claude/skills && cp -r skill-orchestrator ~/.claude/skills/skill-orc
 또는 git clone:
 
 ```bash
-git clone https://github.com/<사용자>/skill-orchestrator.git ~/.claude/skills/skill-orchestrator
+git clone https://github.com/Gungye0/skill-orchestrator.git ~/.claude/skills/skill-orchestrator
 ```
 
 검증 단계까지 쓰려면 independent-judge도 같은 방식으로 설치합니다. Python 3가 필요합니다(표준 라이브러리만 사용).
